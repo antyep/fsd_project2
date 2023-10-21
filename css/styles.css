@@ -1,0 +1,8 @@
+.main-display{
+    z-index: 10;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 2rem; 
+    height: 2rem;
+}
