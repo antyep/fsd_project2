@@ -1,44 +1,137 @@
-*{
-    display: inline;
-    background-image: url(/img/main-background.jpg);
-    justify-content: center;
-    align-items: center;
+body {
+    background-color: lightblue;
+}
+
+.root-wrapper {
+    background-image: url('/img/gameboy-advance-sp.jpg');
     background-repeat: no-repeat;
-    
+    background-position: center center;
+    height: 800px;
+    background-size: contain;
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
 }
 
+.btn {
+    /* border: 1px solid white; */
+    background: transparent;
+    outline: inherit;
 
-.main-display{
+}
+
+/* SCREEN */
+.display {
     z-index: 10;
-    display: inline;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
-    width: 18rem; 
-    height: 43rem;
+    background-color: black;
+    border-radius: 5% 5% 5% 5%;
+    color: white;
+    margin: 0 auto;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    position: relative;
+    top: 118px;
+    height: 215px;
+    right: 0px;
+    left: 0px;
+    width: 250px;
 }
 
-.a-button {
-    z-index: 1;
+/* UPPER BUTTONS */
+.buttons-container {
+    position: relative;
+    top: 300px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    background-color: #8f9294;
-    color: #fff;  
-    font-size: 11px;
+    justify-content: space-between;
+    height: 80px;
 }
-.b-button {
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1rem;
-    height: 1rem;
+
+.dpad-wrapper {
+    position: relative;
+    left: 40px;
+    width: 74px;
+}
+
+.up,
+.right,
+.down,
+.left {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+
+.up {
+    top: 10px;
+    left: 25px;
+}
+
+.right {
+    right: 0;
+    top: 30px;
+}
+
+.down {
+    bottom: 4px;
+    left: 25px;
+}
+
+.left {
+    left: 0px;
+    top: 30px
+}
+
+
+.main-btns-wrapper {
+    position: relative;
+    top: 5px;
+    right: 30px;
+    width: 95px;
+    height: 54px;
+}
+
+.main-btn {
+    height: 36px;
+    width: 36px;
     border-radius: 50%;
-    background-color: #8f9294;
-    color: #fff;  
-    font-size: 11px;
+}
+
+.a-btn {
+    position: relative;
+    left: 18px;
+    top: 2px;
+}
+
+.b-btn {
+    position: relative;
+    top: 16px;
+    left: 2px;
+    border-radius: 50%;
+}
+
+/* LOWER BUTTONS */
+.options-wrapper {
+    position: relative;
+    top: 375px;
+    left: 108px;
+}
+
+.small-btn {
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    position: relative;
+}
+
+    .select {
+left: 1px;
+}
+
+.start {
+    left: 34px;
 }
