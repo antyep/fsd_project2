@@ -1,12 +1,12 @@
 body {
-    background-color: lightblue;
+    background-color: gray;
 }
 
 .root-wrapper {
     background-image: url('/img/gameboy-advance-sp.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    height: 800px;
+    height: 700px;
     background-size: contain;
     position: relative;
     width: 300px;
@@ -34,17 +34,19 @@ body {
     background-repeat: no-repeat;
 
     position: relative;
-    top: 118px;
+    top: 68px;
     height: 215px;
     right: 0px;
     left: 0px;
     width: 250px;
+
+    transition: all 1s;
 }
 
 /* UPPER BUTTONS */
 .buttons-container {
     position: relative;
-    top: 300px;
+    top: 250px;
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -116,7 +118,7 @@ body {
 /* LOWER BUTTONS */
 .options-wrapper {
     position: relative;
-    top: 375px;
+    top: 325px;
     left: 108px;
 }
 
