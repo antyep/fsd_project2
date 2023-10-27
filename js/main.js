@@ -1,5 +1,3 @@
-// right: 
-
 const displayElem = document.getElementById('display');
 const startButton = document.getElementById('start');
 const selectButton = document.getElementById('select');
@@ -18,7 +16,7 @@ function start() {
         if (isImageVisible) {
             displayElem.style.backgroundImage = 'none';
         } else {
-            displayElem.style.backgroundImage = 'url(./img/gameboy-advance-sp.jpg)';
+            displayElem.style.backgroundImage = 'url(../img/gameboy-advance-sp.jpg)';
             displayElem.style.backgroundSize = 'cover';
         }
 

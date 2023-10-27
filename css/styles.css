@@ -3,7 +3,7 @@ body {
 }
 
 .root-wrapper {
-    background-image: url('/img/gameboy-advance-sp.jpg');
+    background-image: url('../img/gameboy-advance-sp.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     height: 700px;
@@ -14,13 +14,11 @@ body {
 }
 
 .btn {
-    /* border: 1px solid white; */
     background: transparent;
     outline: inherit;
 
 }
 
-/* SCREEN */
 .display {
     display: flex;
     justify-content: center;
@@ -43,7 +41,6 @@ body {
     transition: all 1s;
 }
 
-/* UPPER BUTTONS */
 .buttons-container {
     position: relative;
     top: 250px;
