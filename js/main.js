@@ -38,7 +38,7 @@ selectButton.addEventListener('click', () => {
 
 function right() {
     rightButton.addEventListener('click', () => {
-        displayElem.style.backgroundImage = 'url(./img/mario-right.png)';
+        displayElem.style.backgroundImage = 'url(../img/mario-right.png)';
         displayElem.style.backgroundSize = 'cover';
     });
 }
@@ -48,7 +48,7 @@ right();
 function left() {
 
     leftButton.addEventListener('click', () => {
-        displayElem.style.backgroundImage = 'url(./img/mario-left.jpg)';
+        displayElem.style.backgroundImage = 'url(../img/mario-left.jpg)';
         displayElem.style.backgroundSize = 'cover';
     });
 }
@@ -58,14 +58,14 @@ left();
 function up() {
 
     upButton.addEventListener('click', () => {
-        displayElem.style.backgroundImage = 'url(./img/mario-jumping.png)';
+        displayElem.style.backgroundImage = 'url(../img/mario-jumping.png)';
         displayElem.style.backgroundSize = 'cover';
     });
 }
 
 up();
 
-let sound = new Audio('./audio/super-mario-castle-bros.mp3')
+let sound = new Audio('../audio/super-mario-castle-bros.mp3')
 aButton.addEventListener('click', () => {
     sound.play();
     displayElem.style.backgroundColor = 'black'
